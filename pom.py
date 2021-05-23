@@ -1,15 +1,52 @@
-"""
-Requirements
 
-1. Go to www.makemytrip.com
-2. Click on flights link and click on round trip
-3. Select from: Delihi and To: Bangalore
-4. Select departure date (today's date) and return date: after 7 days
-5. Click on search
-6. Print total number of records of 'Departure Flight' and 'Return Flight' on the console
-7. Select Non-Stop and 1 Stop filter options and print total number of records of 'Departure Flight, and 'Return flight'
-on the console
-8. Select radio button on top 10 options of 'Departure Flight' and 'Return Flight'
-9. Verify the same Departure Flight price and Return Flight price are getting reflected at the bottom of the page
-10. Verify the correct total amount (Departure Flight price + Return Flight Price) is getting reflected correctly
-"""
+
+class DepartureAndReturnTest:
+
+    # TODO: When the website www.makemytrip.com is displayed
+
+    # TODO: And the round trip in the flights link is selected
+    def round_trip_btn(self):
+        pass
+
+    # TODO: And the selection from Delihi is made
+    def from_text_field(self):
+        pass
+
+    # TODO: And the selection to Bangalore is made
+    def dest_text_field(self):
+        pass
+
+    # TODO: And the departure date (today's date) is made
+    def departure_date(self):
+        pass
+
+    # TODO: And the return date (7 days later than departure) is made
+    def returning_date(self):
+        pass
+
+    # TODO: Then the search button is clicked
+    def search_btn(self):
+        pass
+
+    # TODO: Then the total number of records 'Departure Flight' and 'Return Flight' is printed on the console
+    def number_of_records(self):
+        pass
+
+    # TODO: Then the Non-Stop and 1 Stop filter options and print total number of records of 'Departure Flight,
+    #  and 'Return flight' is printed on the console
+    def nonstop_and_onestop(self):
+        # prints to console
+        pass
+
+    # TODO: Then the radio button on the departure flightis selected
+    def departure_flight_selection(self):
+        pass
+
+    # TODO: Then the radio button on the return flight is selected
+    def return_flight_selection(self):
+        pass
+
+    # TODO: Assert the correct cumulative monetary amount is correct in the bottom right of the bar
+
+
+
