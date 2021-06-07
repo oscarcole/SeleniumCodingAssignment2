@@ -15,7 +15,7 @@ class MonetaryAddition:
         self.url = 'http://www.makemytrip.com'
 
     def go(self):
-        self.browser(self.url)
+        self.driver.get(self.url)
 
 
     # And the round trip in the flights link is selected
